@@ -10,7 +10,7 @@
     <h1>Simple PHP Testing Page</h1>
     <?php if ( date('G') > 18) : ?>
       <h2>Good Evening</h2>
-    <?php elseif (date('G') > 12) : ?>
+    <?php elseif (date('G') < 12) : ?>
       <h2>Good Morning</h2>
     <?php else : ?>
       <h2>Good Afternoon</h2>    
