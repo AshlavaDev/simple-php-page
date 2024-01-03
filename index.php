@@ -20,6 +20,10 @@
   <div>
     <p>Welcome to this web page</p>
     <p>This page is designed to help me test PHP as I learn it for web development purposes. If the subheading shows the correct greeting for the current time of day for the server location, then that PHP at least works.</p>
+    <?php 
+      $currentTime = date('g:i A');
+    ?>
+      <p>The current server time is: <?php echo $currentTime; ?></p>
   </div>
   
 </body>
